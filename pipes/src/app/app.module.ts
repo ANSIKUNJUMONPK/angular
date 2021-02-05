@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DirectivesDirective } from './directives.directive';
+import { Pipe1Pipe } from './pipe1.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DirectivesDirective
+    DirectivesDirective,
+    Pipe1Pipe
   ],
   imports: [
     BrowserModule

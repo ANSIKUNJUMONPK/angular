@@ -15,6 +15,8 @@ import { Component } from '@angular/core';
   <h2>{{date |date:'shortDate'}}</h2>
   
   <h2>{{date |date:'shortTime'}}</h2>
+
+  {{3|product:4}}
   `,
   styleUrls: ['./app.component.css']
 })
